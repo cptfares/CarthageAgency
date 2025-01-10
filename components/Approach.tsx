@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      Our <span className="text-purple">  approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -15,7 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
+          des="We'll collaborate to map out your goals, target audience, 
           and key functionalities. We'll discuss things like site structure, 
           navigation, and content requirements."
         >
@@ -28,8 +28,8 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
+          des="Once we agree on the plan, We Will dive into
+          the work. From initial sketches to polished code, I keep you updated
           every step of the way."
         >
           <CanvasRevealEffect

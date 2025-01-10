@@ -116,8 +116,18 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
-                </div>
+  <img
+    src={item.image}
+    alt="profile"
+    style={{
+      width: "50px", // Adjust the size as needed
+      height: "50px",
+      borderRadius: "50%",
+      objectFit: "cover" // Ensures the image doesn't get distorted
+    }}
+  />
+</div>
+
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
                   <span className="text-xl font-bold leading-[1.6] text-white">
