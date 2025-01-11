@@ -20,6 +20,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <title>Carthage Agency</title>
+
       </head>
       <body className={inter.className}>
         <ThemeProvider

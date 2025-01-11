@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Services", link: "#services" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -8,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "We prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "We  very flexible with time zone communications. Our team is eveywhere!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "our tech stack",
+    description: "We are always straving to meet your requirements ",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -69,7 +70,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Crathage Agency was an absolute pleasure. their professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Charatge's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Carthage Agency was an absolute pleasure. Their professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carthage's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and enhance your brand, Carthage Agency is the ideal partner.",
     name: "Nick Diliberto",
     title: "owner of Ministry to youth",
     image:"/Nick.jpg"
