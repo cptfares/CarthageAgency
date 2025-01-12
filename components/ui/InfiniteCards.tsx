@@ -14,7 +14,6 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    image:string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -117,7 +116,6 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                {item.image && (
   <img
     src={item.image}
     alt="profile"
@@ -128,7 +126,6 @@ export const InfiniteMovingCards = ({
       objectFit: "cover" // Ensures the image doesn't get distorted
     }}
   />
-)}
 </div>
 
                 <span className="flex flex-col gap-1">
