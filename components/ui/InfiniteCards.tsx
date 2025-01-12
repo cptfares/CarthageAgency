@@ -118,7 +118,7 @@ export const InfiniteMovingCards = ({
                 {/* add this div for the profile img */}
                 <div className="me-3">
   <img
-    src={item.image}
+    src={item.img}
     alt="profile"
     style={{
       width: "50px", // Adjust the size as needed
