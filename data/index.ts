@@ -73,7 +73,7 @@ export const testimonials = [
       "Collaborating with Carthage Agency was an absolute pleasure. Their professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carthage's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and enhance your brand, Carthage Agency is the ideal partner.",
     name: "Nick Diliberto",
     title: "owner of Ministry to youth",
-    image:"/Nick.jpg"
+    img:"/Nick.jpg"
   }
 ];
 
