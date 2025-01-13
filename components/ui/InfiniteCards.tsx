@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import Image from "@/node_modules/next/image";
 
 export const InfiniteMovingCards = ({
   items,
@@ -14,7 +15,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    img:string;
+    img: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -117,17 +118,17 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-  <img
-    src={item.img}
-    alt="profile"
-    style={{
-      width: "50px", // Adjust the size as needed
-      height: "50px",
-      borderRadius: "50%",
-      objectFit: "cover" // Ensures the image doesn't get distorted
-    }}
-  />
-</div>
+                  <Image
+                    src={item.img}
+                    alt="profile"
+                    width={50} // Adjust the width as needed
+                    height={50} // Adjust the height as needed
+                    style={{
+                      borderRadius: "50%",
+                      objectFit: "cover", // Ensures the image doesn't get distorted
+                    }}
+                  />
+                </div>
 
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
