@@ -1,13 +1,13 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Image from "next/image"; // Importing Image from next/image
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects" >
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -27,11 +27,20 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image
+                    src="/bg.png"
+                    alt="Background"
+                    layout="fill"
+                    objectFit="cover"
+                    priority
+                  />
                 </div>
-                <img
+                <Image
                   src={item.img}
-                  alt="cover"
+                  alt="Cover"
+                  layout="intrinsic"
+                  width={400} // Set appropriate width
+                  height={300} // Set appropriate height
                   className="z-10 absolute bottom-0"
                 />
               </div>
@@ -60,16 +69,22 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        src={icon}
+                        alt={`Icon ${index + 1}`}
+                        width={24} // Icon size
+                        height={24} // Icon size
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a href={item.link} target="_blank" >
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p> 
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
                   </a>
 
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
