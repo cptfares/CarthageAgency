@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "We  very flexible with time zone communications. Our team is eveywhere!",
+    title: "We're flexible with time zone communication. our team is global!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,14 +29,14 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "our tech stack",
-    description: "We are always straving to meet your requirements ",
+    title: "Our tech stack",
+    description: "We are always striving to meet your requirements ",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
-  }
+  },
 ];
 
 export const projects = [
@@ -58,28 +58,25 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Vistra work goes here ",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Vistra photgraphy ",
+    des: "vistara is photgraphy portfolio",
     img: "/vistara.jpeg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/html.png", "/css.png", "/ts.svg", "/shopify.png"],
     link: "/ui.aiimg.com",
   },
-
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Carthage Agency was an absolute pleasure. Their professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Carthage's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and enhance your brand, Carthage Agency is the ideal partner.",
+      "Collaborating with Vela Agency was an absolute pleasure. Their professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vela's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and enhance your brand, Vela Agency is the ideal partner.",
     name: "Nick Diliberto",
-    title: "owner of Ministry to youth",
-    img:"/Nick.jpg"
-  }
+    title: "Owner of Ministry to youth",
+    img: "/Nick.jpg",
+  },
 ];
 
-export const companies = [
-
-];
+export const companies = [];
 
 export const workExperience = [
   {
@@ -119,18 +116,25 @@ export const workExperience = [
   },
 ];
 
-
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/ig1.png",
+    link: "https://www.linkedin.com/company/holding-carthage/about/?viewAsMember=true",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/twitter.png",
+    link: "https://www.linkedin.com/company/holding-carthage/about/?viewAsMember=true",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/li.png",
+    link: "https://www.linkedin.com/company/holding-carthage/about/?viewAsMember=true",
+  },
+  {
+    id: 3,
+    img: "/fb.png",
+    link: "https://www.linkedin.com/company/holding-carthage/about/?viewAsMember=true",
   },
 ];

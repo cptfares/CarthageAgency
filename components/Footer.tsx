@@ -37,7 +37,7 @@ const Footer = () => {
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © {new Date().getFullYear()} Carthage Agency
+          Copyright © {new Date().getFullYear()} Vela Agency
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
@@ -46,11 +46,13 @@ const Footer = () => {
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <Image
-                src={info.img}
-                width={20} // Specify width
-                height={20} // Specify height
-              />
+              <a href={info.link}>
+                <Image
+                  src={info.img}
+                  width={20} // Specify width
+                  height={20} // Specify height
+                />
+              </a>
             </div>
           ))}
         </div>

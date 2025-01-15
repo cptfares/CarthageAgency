@@ -47,12 +47,14 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! We&apos;re Carthage, a creative agency delivering photography, videography, web development, and branding solutions to bring your vision to life.
+            Hi! We&apos;re Vela creative agency delivering photography,
+            videography, web development, and branding solutions to bring your
+            vision to life.
           </p>
 
-          <a href="#about">
+          <a href="#services">
             <MagicButton
-              title="Discover Our Work"
+              title="Discover Our services"
               icon={<FaLocationArrow />}
               position="right"
             />

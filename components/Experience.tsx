@@ -28,7 +28,7 @@ const Experience = () => {
               <Image
                 src={card.thumbnail}
                 alt={card.title} // Use a descriptive alt tag
-                width={128} // Provide a width for the image
+                width={150} // Provide a width for the image
                 height={128} // Provide a height for the image
                 className="lg:w-32 md:w-20 w-16" // Optional: retain styling for consistency
               />

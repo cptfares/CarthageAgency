@@ -110,16 +110,25 @@ export const InfiniteMovingCards = ({
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <div className="me-3">
-                  <Image
+              <div className="relative z-20 mt-6 flex flex-row items-center space-x-4">
+                <div
+                  style={{
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%", // Makes it a perfect circle
+                    overflow: "hidden", // Ensures the image doesn't spill outside the circle
+                    display: "flex", // Centers the image within the circle
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
                     src={item.img}
                     alt="profile"
-                    width={50}
-                    height={50}
                     style={{
-                      borderRadius: "50%",
-                      objectFit: "cover",
+                      width: "100%", // Ensures the image fits within the container
+                      height: "100%", // Matches the container height
+                      objectFit: "cover", // Maintains the aspect ratio
                     }}
                   />
                 </div>
@@ -128,7 +137,7 @@ export const InfiniteMovingCards = ({
                   <span className="text-xl font-bold leading-[1.6] text-white">
                     {item.name}
                   </span>
-                  <span className=" text-sm leading-[1.6] text-white-200 font-normal">
+                  <span className="text-sm leading-[1.6] text-white-200 font-normal">
                     {item.title}
                   </span>
                 </span>
