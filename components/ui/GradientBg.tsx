@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function GradientBg() {
+export function BackgroundGradientAnimation() {
   const [curX, setCurX] = useState(0);
   const [curY, setCurY] = useState(0);
 

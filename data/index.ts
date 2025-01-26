@@ -80,13 +80,6 @@ export const companies = [];
 
 export const workExperience = [
   {
-    id: 1,
-    title: "Photography and Videography",
-    desc: "Capturing high-quality photos and videos tailored to your brand identity.",
-    className: "md:col-span-2",
-    thumbnail: "/4740489.svg",
-  },
-  {
     id: 2,
     title: "Website Development",
     desc: "Designing and developing custom websites for restaurants, businesses, and projects.",
