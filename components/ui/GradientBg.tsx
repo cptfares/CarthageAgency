@@ -26,9 +26,10 @@ export function BackgroundGradientAnimation() {
   };
 
   useEffect(() => {
-    window.addEventListener("mousemove", handleMouseMove);
+    if (typeof window !== "undefined") {
+      window.addEventListener("mousemove", handleMouseMove);
+    }
 
-    // Cleanup listener when component is unmounted
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
